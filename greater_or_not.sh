@@ -1,7 +1,8 @@
 #!/bin/bash
 
 echo "Enter two digits: "
-read a b
+read a 
+read b
 
 if [ $a -gt $b ]
 then

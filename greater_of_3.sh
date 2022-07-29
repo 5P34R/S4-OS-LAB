@@ -1,7 +1,9 @@
 #!/bin/bash
 
 echo -n "Enter three digits: "
-read a b c
+read a 
+read b 
+read c
 
 if [ $a -gt $b ] && [ $a -gt $c ]
 then

@@ -1,6 +1,5 @@
 #include<stdio.h>
-
-
+#include<conio.h>
 int waitingtime(int procs[], int n, int burst_time[], int wait_time[]){
   wait_time[0] = 0;
   
